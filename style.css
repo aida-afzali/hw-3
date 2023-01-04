@@ -1,0 +1,101 @@
+/* seyedeh aida afzali - 40139886 - WEBHW */
+*{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{height: 100%;
+    background-image: linear-gradient(#0046ae, #9198e5);
+}
+
+.content{
+    margin: 7% auto;
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    min-height: 450px;
+    width: 300px;
+    height: 60vh;
+    border: 2px ;
+    border-radius: 24px;
+    padding: 5px;
+    box-shadow: 5px 10px 35px 5px;
+
+}
+
+.content:hover{
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
+
+
+.white, .song-writer{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+    text-shadow: 5px 5px 15px  black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+img{
+    border-radius: 8px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+img:hover {
+    box-shadow: 1px 1px 20px ;
+}
+
+.song-writer{
+    color: #666;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.song-writer:hover{
+    color: #2e2e2e;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.time1{
+    color: white;
+    font-weight: bold;
+    font-size:larger;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input[type=range] {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.first:hover{
+    background-color: red;
+}
+
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.play:hover,
+.back:hover,
+.for:hover{
+    border-color: #bebebe;
+}
+
+.Buttoms{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
